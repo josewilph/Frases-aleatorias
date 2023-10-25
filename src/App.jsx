@@ -19,6 +19,8 @@ function App() {
   const  indexRamdon = Math.floor(Math.random() *phrases.length);
   const  colorRamdon = Math.floor(Math.random() *colorArray.length);
   const [index,setIndex]=useState(indexRamdon)
+  const [color, setColor] = useState("#4D8066")
+
 
   document.body.style.background=`${colorArray[colorRamdon]}`
 
